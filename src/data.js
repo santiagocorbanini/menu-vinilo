@@ -1,11 +1,11 @@
 const menu = [
   {
     id: 1,
-    title: 'buttermilk pancakes',
-    category: 'waffle',
-    price: 15.99,
+    title: 'Daiquiri Frozen de frutilla',
+    category: 'dulces',
+    price: 500,
     img: './images/item-1.jpeg',
-    desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
+    desc: `Ron Dorado, Frutillas, Azúcar`,
   },
   {
     id: 2,
