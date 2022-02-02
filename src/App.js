@@ -22,8 +22,8 @@ const App = () => {
     setMenuItems(newItems);
   };
   return (
-      <>
-        <Nav />  
+    <>
+        <Nav />   
         <main>
         <section className="menu section">
             <Categories

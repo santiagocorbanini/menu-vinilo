@@ -81,7 +81,6 @@ p {
   text-transform: capitalize;
   margin: 0 0.5rem;
   letter-spacing: 1px;
-  padding: 0.375rem 0.75rem;
   color:  hsl(360, 71%, 66%);
   cursor: pointer;
   transition: all 0.3s linear;

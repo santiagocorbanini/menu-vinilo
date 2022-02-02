@@ -214,7 +214,7 @@ const menu = [
     nivel: 0,
   },
   {
-    id: 23,
+    id: 43,
     title: 'Restinga (London Dry)',
     category: 'amargos',
     price: 600,
@@ -364,7 +364,7 @@ const menu = [
   {
     id: 39,
     title: 'Gancia Batido',
-    category: 'citricos',
+    category: 'balanceados',
     price: 400,
     img: './images/item-2.jpeg',
     desc: `Gancia, Zumo de Limón, Almíbar Simple`,
@@ -373,7 +373,7 @@ const menu = [
   {
     id: 40,
     title: 'Fiona (by Jacqueline Fierro)',
-    category: 'citricos',
+    category: 'balanceados',
     price: 550,
     img: './images/item-2.jpeg',
     desc: `Gin, Zumo de Limón, Almíbar Simple, Jengibre, Menta`,
@@ -382,7 +382,7 @@ const menu = [
   {
     id: 41,
     title: 'Cítrico',
-    category: 'sin alcohol',
+    category: 'balanceados',
     price: 420,
     img: './images/item-2.jpeg',
     desc: `Terma Citrus, Zumo de limón, Almíbar de Jengibre, Agua Tónica`,
@@ -391,7 +391,7 @@ const menu = [
   {
     id: 42,
     title: 'Dulce',
-    category: 'sin alcohol',
+    category: 'balanceados',
     price: 420,
     img: './images/item-2.jpeg',
     desc: `Pulpa de Frutilla, Jugo de Arándanos, Jugo de Naranja, Almíbar de Pomelo -
