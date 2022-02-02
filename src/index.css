@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: hsl(210, 36%, 96%);
+  background: hsl(210, 100%, 100%);
   color: hsl(209, 61%, 16%);
 }
 
@@ -53,7 +53,11 @@ p {
 }
 .title {
   text-align: center;
-  margin-bottom: 2rem;
+  margin: 2rem;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .underline {

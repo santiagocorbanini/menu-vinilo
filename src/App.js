@@ -3,6 +3,7 @@ import Menu from "./Menu";
 import Categories from "./Categories";
 import items from "./data";
 import logo from "./logo.png";
+import Nav from "./Nav";
 
 const allCategories = ["all", ...new Set(items.map((item) => item.category))];
 
@@ -21,21 +22,19 @@ const App = () => {
     setMenuItems(newItems);
   };
   return (
-    <main>
-      <section className="menu section">
-        <div className="title">
-          <img src="./images/logo.png" alt="logo" className="logo" />
-          <h2>Menu</h2>
-          <div className="underline"></div>
-        </div>
-        <Categories
-          categories={categories}
-          activeCategory={activeCategory}
-          filterItems={filterItems}
-        />
-        <Menu items={menuItems} />
-      </section>
-    </main>
+      <>
+        <Nav />  
+        <main>
+        <section className="menu section">
+            <Categories
+            categories={categories}
+            activeCategory={activeCategory}
+            filterItems={filterItems}
+            />
+            <Menu items={menuItems} />
+        </section>
+        </main>
+    </>
   );
 };
 
