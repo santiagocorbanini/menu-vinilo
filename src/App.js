@@ -5,7 +5,7 @@ import items from "./data";
 import logo from "./logo.png";
 import Nav from "./Nav";
 
-const allCategories = ["all", ...new Set(items.map((item) => item.category))];
+const allCategories = ["todos", ...new Set(items.map((item) => item.category))];
 
 const App = () => {
   const [menuItems, setMenuItems] = useState(items);
@@ -14,7 +14,7 @@ const App = () => {
 
   const filterItems = (category) => {
     setActiveCategory(category);
-    if (category === "all") {
+    if (category === "todos") {
       setMenuItems(items);
       return;
     }

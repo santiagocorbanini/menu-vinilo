@@ -1,3 +1,33 @@
+/*VARIABLES*/
+
+:root {
+--Black: #111111;
+--AccentColor: hsl(210, 22%, 49%);
+--WhiteColor: rgb(248, 248, 248);
+}
+
+@font-face {
+  font-family: 'Hudson';
+  src: url(./assets/fonts/Hudson\ NY\ Serif.otf);
+}
+
+.container {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.table {
+  margin-bottom: 0px !important;
+}
+
+.right h2 {
+  font-family: 'Hudson';
+  color: var(--WhiteColor);
+  font-size: 4em;
+  margin-bottom: 20px;
+  margin-left: 20px
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -20,16 +50,13 @@ h3,
 h4 {
   letter-spacing:  0.1rem;
   text-transform: capitalize;
-  line-height: 1.25;
-  margin-bottom: 0.75rem;
+  line-height: 1;
+  font-size: calc(1rem + 0.0vw);
+  font-family: 'Hudson';
 }
 
 h3 {
   font-size: 1.25rem;
-}
-
-h4 {
-  font-size: 0.875rem;
 }
 
 p {
@@ -49,12 +76,12 @@ p {
   }
 }
 .menu {
-  padding: 5rem 0;
+  padding-bottom: 0px !important;
+  padding-top: 30px !important;
 }
 .title {
   text-align: center;
-  margin: 2rem;
-  background-color: black;
+  background-color: #111111;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,7 +96,7 @@ p {
 }
 
 .btn-container {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   display: flex;
   justify-content: center;
 }
@@ -81,10 +108,14 @@ p {
   text-transform: capitalize;
   margin: 0 0.5rem;
   letter-spacing: 1px;
-  color:  hsl(360, 71%, 66%);
+  color:  var(--Black);
   cursor: pointer;
   transition: all 0.3s linear;
   border-radius: 0.25rem;
+}
+
+.filter-btn:hover {
+  color: var(--AccentColor);
 }
 
 .active {
@@ -118,8 +149,9 @@ p {
 .logo {
   object-fit: cover;
   height: auto;
-  width: 200px;
+  width: 100px;
   border-radius: 0.25rem;  
+  padding-bottom: 15px;
 }
 
 .item-info header {
@@ -134,9 +166,14 @@ p {
 }
 .item-text {
   margin-bottom: 0;
-  padding-top: 1rem;
+  padding-left: 15px;
 }
 
+.estrellas {
+  padding-left: 30px;
+  margin-bottom: 8px;
+  margin-top: 4px;
+}
 
 @media screen and (min-width: 768px) {
   .menu-item {
