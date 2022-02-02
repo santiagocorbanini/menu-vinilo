@@ -4,6 +4,7 @@ import Categories from "./Categories";
 import items from "./data";
 import logo from "./logo.png";
 import Nav from "./Nav";
+import Footer from "./Footer";
 
 const allCategories = ["todos", ...new Set(items.map((item) => item.category))];
 
@@ -34,6 +35,7 @@ const App = () => {
             <Menu items={menuItems} />
         </section>
         </main>
+        <Footer/>
     </>
   );
 };
