@@ -27,7 +27,7 @@ const App = () => {
         <Nav />   
         <main>
         <section className="menu section">
-        <h1 className="text-center">TRAGOS</h1>
+        <h1 className="text-center" id="tragos">TRAGOS</h1>
             <Categories
             categories={categories}
             activeCategory={activeCategory}
