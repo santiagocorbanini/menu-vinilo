@@ -104,7 +104,7 @@ const menu = [
   },
   {
     id: 12,
-    title: 'Vermouth (Lunfa, La Fuerza o Mala María',
+    title: 'Vermouth (Lunfa, La Fuerza o Mala María)',
     category: 'amargos',
     price: 500,
     img: './images/item-2.jpeg',
@@ -208,7 +208,7 @@ const menu = [
     price: 800,
     img: './images/item-2.jpeg',
     desc: `Wesley nos trae desde Bariloche dos variedades de Gin: el clásico London
-    Dry (con 43% de graduación alcohólica🥴) en el que sobresale el aroma a
+    Dry (con 43% de graduación alcohólica) en el que sobresale el aroma a
     enebro y otro London Dry (también con 43% de graduación alcohólica)
     infusionado con frambuesas y cassis. Elegí el que más te guste.`,
     nivel: 0,
