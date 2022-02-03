@@ -5,7 +5,7 @@ const Footer = () => {
   return (
           <div className="footer">
             <div className="container">
-              <div className="row">
+              <div className="row m-0">
                   {/*<!-- Footer Location
                   <div className="col-lg-4 mb-5 mb-lg-0">
                       <h4 className="text-uppercase mb-4">Location</h4>
@@ -17,11 +17,11 @@ const Footer = () => {
                   </div>
                   -->*/}
                   {/*<!-- Footer Social Icons-->*/}
-                  <div className="col-lg-6 mb-5 mb-lg-0">
+                  <div className="col-lg-6 pb-2">
                       <a href="https://www.pampacode.com" target={"_blank"}>
                           <img src={logoPampa} alt="Pampacode" id='logo-footer-pampa' />
                       </a>
-                      <p className="mt-2">
+                      <p className="m-1">
                       Desarrollo de Software - © {(new Date().getFullYear())}.
                       </p>
                       <a className="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/pampacode" target={"_blank"}><i className="fab fa-fw fa-instagram"></i></a>
@@ -29,9 +29,9 @@ const Footer = () => {
                       <a className="btn btn-outline-light btn-social mx-1" href={"mailto:info@pampacode.com"}><i className="fas fa-envelope"></i></a>
                   </div>
                   {/*<!-- Footer About Text-->*/}
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 pb-2">
                       <img src={logoVinilo} alt="Vinilo Bar" id='logo-vinilo' />
-                      <p className="mt-2">
+                      <p className="m-1">
                           Junín, Bs As, Argentina.
                       </p>
                       <a className="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/vinilo.bar/" target={"_blank"}><i className="fab fa-fw fa-instagram"></i></a>
