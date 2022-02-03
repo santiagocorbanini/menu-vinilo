@@ -21,21 +21,21 @@ const Footer = () => {
                       <a href="https://www.pampacode.com" target={"_blank"}>
                           <img src={logoPampa} alt="Pampacode" id='logo-footer-pampa' />
                       </a>
-                      <p className="lead mb-0">
-                      © Todos los derechos reservados - {(new Date().getFullYear())}.
+                      <p className="mt-2">
+                      Desarrollo de Software - © {(new Date().getFullYear())}.
                       </p>
-                      <a className="btn btn-outline-light btn-social mx-1 mt-3" href="https://www.instagram.com/pampacode" target={"_blank"}><i className="fab fa-fw fa-instagram"></i></a>
-                      <a className="btn btn-outline-light btn-social mx-1 mt-3" href="https://www.pampacode.com" target={"_blank"}><i className="fas fa-fw fa-globe"></i></a>
-                      <a className="btn btn-outline-light btn-social mx-1 mt-3" href={"mailto:info@pampacode.com"}><i className="fas fa-envelope"></i></a>
+                      <a className="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/pampacode" target={"_blank"}><i className="fab fa-fw fa-instagram"></i></a>
+                      <a className="btn btn-outline-light btn-social mx-1" href="https://www.pampacode.com" target={"_blank"}><i className="fas fa-fw fa-globe"></i></a>
+                      <a className="btn btn-outline-light btn-social mx-1" href={"mailto:info@pampacode.com"}><i className="fas fa-envelope"></i></a>
                   </div>
                   {/*<!-- Footer About Text-->*/}
                   <div className="col-lg-6">
                       <img src={logoVinilo} alt="Vinilo Bar" id='logo-vinilo' />
-                      <p className="lead mb-0">
+                      <p className="mt-2">
                           Junín, Bs As, Argentina.
                       </p>
-                      <a className="btn btn-outline-light btn-social mx-1 mt-3" href="https://www.instagram.com/vinilo.bar/" target={"_blank"}><i className="fab fa-fw fa-instagram"></i></a>
-                      <a className="btn btn-outline-light btn-social mx-1 mt-3" href="https://www.facebook.com/ViniloBarClub" target={"_blank"}><i className="fab fa-facebook-f"></i></a>
+                      <a className="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/vinilo.bar/" target={"_blank"}><i className="fab fa-fw fa-instagram"></i></a>
+                      <a className="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/ViniloBarClub" target={"_blank"}><i className="fab fa-facebook-f"></i></a>
                   </div>
               </div>
             </div>

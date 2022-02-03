@@ -11,6 +11,8 @@
   src: url(./assets/fonts/Hudson\ NY\ Serif.otf);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;1,200&display=swap');
+
 .container {
   padding-left: 0px !important;
   padding-right: 0px !important;
@@ -39,14 +41,19 @@
     padding-bottom: 20px;
 }
 
+.footer p {
+  color: white;
+  font-family: inherit;
+}
+
 .btn-social{
     align-items: center;
     border-radius: 100% !important;
     display: inline-flex !important;
-    font-size: 1.25rem !important;
-    height: 3.25rem;
+    font-size: 1rem !important;
+    height: 2rem;
     justify-content: center;
-    width: 3.25rem;
+    width: 2rem;
 }
 
 .row{
@@ -95,6 +102,8 @@ h3 {
 p {
   margin-bottom: 1.25rem;
   color: hsl(210, 22%, 49%);
+  font-size: 14px;
+  font-family: 'Titillium Web', sans-serif !important;
 }
 
 .section {
@@ -137,16 +146,16 @@ p {
 }
 
 .filter-btn {
-  background: transparent;
   border-color: transparent;
   font-size: 1rem;
   text-transform: capitalize;
-  margin: 0 0.4rem;
+  margin: 0.4rem;
   letter-spacing: 1px;
   color:  var(--Black);
   cursor: pointer;
   transition: all 0.3s linear;
   border-radius: 0.25rem;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .filter-btn:hover {
@@ -202,6 +211,9 @@ p {
 .item-text {
   margin-bottom: 0;
   padding-left: 15px;
+  color: var(--Black);
+  font-size: 14px;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .estrellas {
